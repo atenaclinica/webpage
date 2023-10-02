@@ -34,7 +34,8 @@ function App() {
             </p>
 
             <div className="relative rounded-lg overflow-hidden shadow-xl" data-aos="fade-up" data-aos-delay="150">
-                <img src="facade.jpg" alt="Atena Clínica" className="w-full h-auto transition-transform duration-300 hover:scale-105" />
+                <img src={process.env.PUBLIC_URL + '/facade.jpg'}alt="Atena Clínica" className="w-full h-auto transition-transform duration-300 hover:scale-105" />
+           
             </div>
         </div>
 
@@ -70,35 +71,35 @@ function App() {
 
               {/* Example Doctor 1 */}
               <div className="flex flex-col items-center mb-12">
-                  <img src="/profile/joana.jpeg" alt="Dra. Joana Simioni" className="w-48 h-48 rounded-full mb-6" />
+                  <img src={process.env.PUBLIC_URL + '/joana.jpeg'} alt="Dra. Joana Simioni" className="w-48 h-48 rounded-full mb-6" />
                   <h3 className="text-2xl font-medium">Dra. Joana Simioni</h3>
                   <p className="text-blue-500 text-xl mt-2">Ginecologista</p>
               </div>
 
               {/* Example Doctor 2 */}
               <div className="flex flex-col items-center mb-12">
-                  <img src="/profile/camilla.jpeg" alt="Dra. Camilla Scott" className="w-48 h-48 rounded-full mb-6" />
+                  <img src={process.env.PUBLIC_URL + '/camilla.jpeg'} alt="Dra. Camilla Scott" className="w-48 h-48 rounded-full mb-6" />
                   <h3 className="text-2xl font-medium">Dra. Camilla Scott</h3>
                   <p className="text-blue-500 text-xl mt-2">Obstetra</p>
               </div>
 
               {/* Example Doctor 3 */}
               <div className="flex flex-col items-center mb-12">
-                  <img src="/profile/adrielly.jpeg" alt="Dra. Adrielly Correia" className="w-48 h-48 rounded-full mb-6" />
+                  <img src={process.env.PUBLIC_URL + '/adrielly.jpeg'} alt="Dra. Adrielly Correia" className="w-48 h-48 rounded-full mb-6" />
                   <h3 className="text-2xl font-medium">Dra. Adrielly Correia</h3>
                   <p className="text-blue-500 text-xl mt-2">Endocrinologista</p>
               </div>
 
               {/* Example Doctor 4 */}
               <div className="flex flex-col items-center mb-12">
-                  <img src="/profile/louise.jpeg" alt="Dra. Louise Caillot" className="w-48 h-48 rounded-full mb-6" />
+                  <img src={process.env.PUBLIC_URL + '/louise.jpeg'} alt="Dra. Louise Caillot" className="w-48 h-48 rounded-full mb-6" />
                   <h3 className="text-2xl font-medium">Dra. Louise Caillot</h3>
                   <p className="text-blue-500 text-xl mt-2">Dermatologista</p>
               </div>
 
               {/* Example Doctor 5 */}
               <div className="flex flex-col items-center mb-12">
-                  <img src="/profile/katrine.jpeg" alt="Dra. Katrine Souza" className="w-48 h-48 rounded-full mb-6" />
+                  <img src={process.env.PUBLIC_URL + '/katrine.jpeg'} alt="Dra. Katrine Souza" className="w-48 h-48 rounded-full mb-6" />
                   <h3 className="text-2xl font-medium">Dra. Katrine Souza</h3>
                   <p className="text-blue-500 text-xl mt-2">Nutróloga</p>
               </div>
