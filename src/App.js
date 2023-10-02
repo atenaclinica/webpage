@@ -22,7 +22,7 @@ function App() {
 
 
 {/* About the Clinic */}
-<section className="py-32 px-6 h-screen flex items-stretch bg-pink-50">
+<section className="py-32 px-6 min-h-screen flex items-stretch bg-pink-50">
     <div className="container mx-auto flex flex-wrap">
 
         {/* Brief Text and Image on the Left */}
@@ -64,7 +64,7 @@ function App() {
 
 
       {/* Doctors' Information */}
-      <section className="py-20 px-6 bg-pink-50 h-screen flex flex-col justify-center items-center">
+      <section className="mt-12 py-20 px-6 bg-pink-50 h-screen flex flex-col justify-center items-center">
           <h2 className="text-4xl mb-8 font-semibold w-full text-center">Nossas Médicas</h2>
           
           <div className="flex flex-wrap justify-center space-x-16" data-aos="fade-up">
